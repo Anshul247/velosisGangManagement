@@ -1,0 +1,20 @@
+<%- include('layout.ejs'); %>
+    <div class="container">
+        <div class="header pull-right" style="float:right;">            
+            <a class="pull-right" href="/logout"><button type="submit" class="btn btn-primary btn-lg btn-block login-button">Logout</button></a>
+            <!-- <div class="navbar navbar-fixed-top" style="z-index: 10;">
+                <div class="navbar-inner" style="float:right;"></div>
+            </div> -->
+        </div>
+        <div class="row justify-content-center">
+            <p>&nbsp;</p>
+            </p>Welcome to Dashboard </b><%= user.username %> &nbsp;Role :- <%= user.roles %></b></p>            
+            <!-- <h3>My Email is <%= user.email %> </h3> <br> -->
+        </div> 
+        <!-- <p> Name is <%= user.name %> </p> &nbsp; -->
+        <footer class="footer">
+          <p></p>
+        </footer>    
+    </div>
+  </body>
+</html>
